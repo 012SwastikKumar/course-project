@@ -18,22 +18,73 @@
             height: 89vh;
             margin: 2rem auto;
             background-color: rgb(202, 232, 250);
-            padding: 3rem;
+            padding: 0 3rem;
             text-align: center;
         }
         
         .cont {
             width: 55vw;
             margin: 0 auto;
+            /* margin: 7rem auto; */
+        }
+        
+        .contents {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        
+        .header {
+            width: 100%;
+            margin: 0 auto;
+            background-color: rgb(75, 76, 82);
+        }
+        
+        .heading {
+            padding: 1rem;
+        }
+        
+        .name {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+        }
+        
+        .list {
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            text-decoration: none;
+        }
+        
+        .btn {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            margin-right: 30px;
         }
     </style>
 </head>
 
 <body style="background-color:rgb(87, 119, 207);">
     <div class="container">
+        <header class="header">
+            <div class="contents">
+                <div class="heading"><a href="index.html" class="name">Swastik Kumar</a></div>
+                <div class="list">
+                    <ul>
+                        <a href="index.html" class="btn">Home</a>
+                        <a href="about.html" class="btn">About</a>
+                        <a href="contact.html" class="btn">Contact</a>
+                    </ul>
+                </div>
+            </div>
+        </header>
         <div class="cont">
 
-            <h1>About</h1><br>
+            <h1 style="margin-top:2rem;">About</h1><br>
             <hr>
             <br>
             <p style="text-align: start;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quis rem, minus ullam rerum, incidunt maxime in ut repellat sequi architecto quam? Explicabo magni repudiandae, ipsum dolorem natus eius fugit voluptas iure minima doloribus

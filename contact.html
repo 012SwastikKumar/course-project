@@ -18,17 +18,56 @@
         }
         
         .container {
-            width: 100%;
+            width: 95vw;
             height: 89vh;
             margin: 2rem auto;
             background-color: rgb(202, 232, 250);
-            padding: 3rem;
+            padding: 0 3rem;
             text-align: center;
         }
         
         .cont {
             width: 55vw;
             margin: 0 auto;
+            /* margin: 7rem auto; */
+        }
+        
+        .contents {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        
+        .header {
+            width: 100%;
+            margin: 0 auto;
+            background-color: rgb(75, 76, 82);
+        }
+        
+        .heading {
+            padding: 1rem;
+        }
+        
+        .name {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+        }
+        
+        .list {
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            text-decoration: none;
+        }
+        
+        .btn {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            margin-right: 30px;
         }
     </style>
 </head>
@@ -36,9 +75,21 @@
 <body style="background-color:rgb(87, 119, 207);">
 
     <div class="container">
+        <header class="header">
+            <div class="contents">
+                <div class="heading"><a href="index.html" class="name">Swastik Kumar</a></div>
+                <div class="list">
+                    <ul>
+                        <a href="index.html" class="btn">Home</a>
+                        <a href="about.html" class="btn">About</a>
+                        <a href="contact.html" class="btn">Contact</a>
+                    </ul>
+                </div>
+            </div>
+        </header>
         <div class="cont">
 
-            <h1 style="text-transform: uppercase; text-align: center; margin:0 auto 100px auto;">Contact me</h1>
+            <h1 style="text-transform: uppercase; text-align: center; margin:2rem;">Contact me</h1>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">@</span>
